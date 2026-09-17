@@ -1,0 +1,13 @@
+:name: Test2 - overhead di dispatch task-a-task (Ada)
+using sysbus
+$name?="dispatch_ada"
+$bin?=@obj/ada_renode_rtos
+mach create $name
+machine LoadPlatformDescription @nrf52840_legacy_uart.repl
+machine LoadPlatformDescriptionFromString "dwt: Miscellaneous.DWT @ sysbus 0xE0001000 { frequency: 64000000 }"
+showAnalyzer uart0
+sysbus LoadELF $bin
+logLevel -1
+start
+pause
+emulation RunFor "00:00:04"

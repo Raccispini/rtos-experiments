@@ -1,0 +1,341 @@
+:name: Test1c - campionamento esteso ISR (300 trigger, fasi variate) (Rust)
+using sysbus
+mach create "jitter_ext_rust"
+machine LoadPlatformDescription @platforms/cpus/nrf52840.repl
+machine LoadPlatformDescription @src/add-dwt.repl
+showAnalyzer uart0
+sysbus LoadELF @target/thumbv7em-none-eabihf/release/rust_renode_rtos
+logLevel -1
+start
+pause
+emulation RunFor "00:00:01"
+macro sample0
+"""
+    sysbus WriteDoubleWord 0xE0001004 0x0
+    sysbus WriteDoubleWord 0xE000EF00 0x6
+    emulation RunFor "00:00:00.097"
+"""
+macro sample1
+"""
+    sysbus WriteDoubleWord 0xE0001004 0x0
+    sysbus WriteDoubleWord 0xE000EF00 0x6
+    emulation RunFor "00:00:00.135"
+"""
+macro sample2
+"""
+    sysbus WriteDoubleWord 0xE0001004 0x0
+    sysbus WriteDoubleWord 0xE000EF00 0x6
+    emulation RunFor "00:00:00.061"
+"""
+macro sample3
+"""
+    sysbus WriteDoubleWord 0xE0001004 0x0
+    sysbus WriteDoubleWord 0xE000EF00 0x6
+    emulation RunFor "00:00:00.149"
+"""
+macro sample4
+"""
+    sysbus WriteDoubleWord 0xE0001004 0x0
+    sysbus WriteDoubleWord 0xE000EF00 0x6
+    emulation RunFor "00:00:00.023"
+"""
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4
+runMacro $sample0
+runMacro $sample1
+runMacro $sample2
+runMacro $sample3
+runMacro $sample4

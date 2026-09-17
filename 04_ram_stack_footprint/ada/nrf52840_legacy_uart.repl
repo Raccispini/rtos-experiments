@@ -1,0 +1,4 @@
+using "platforms/cpus/nrf52840.repl"
+
+uart0:
+    easyDMA: false

@@ -1,0 +1,49 @@
+:name: Test1 - jitter latenza ISR sotto carico (Ada)
+using sysbus
+$name?="jitter_ada"
+$bin?=@obj/ada_renode_rtos
+mach create $name
+machine LoadPlatformDescription @nrf52840_legacy_uart.repl
+machine LoadPlatformDescriptionFromString "dwt: Miscellaneous.DWT @ sysbus 0xE0001000 { frequency: 64000000 }"
+showAnalyzer uart0
+sysbus LoadELF $bin
+logLevel -1
+start
+pause
+emulation RunFor "00:00:01"
+macro sample
+"""
+    sysbus WriteDoubleWord 0xE0001004 0x0
+    sysbus WriteDoubleWord 0xE000EF00 0x6
+    emulation RunFor "00:00:00.100"
+"""
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample

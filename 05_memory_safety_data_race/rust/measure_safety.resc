@@ -1,0 +1,11 @@
+:name: Test6 - sicurezza della memoria e data race (Rust)
+using sysbus
+mach create "safety_rust"
+machine LoadPlatformDescription @platforms/cpus/nrf52840.repl
+machine LoadPlatformDescription @src/add-dwt.repl
+showAnalyzer uart0
+sysbus LoadELF @target/thumbv7em-none-eabihf/release/rust_renode_rtos
+logLevel -1
+start
+pause
+emulation RunFor "00:00:05"

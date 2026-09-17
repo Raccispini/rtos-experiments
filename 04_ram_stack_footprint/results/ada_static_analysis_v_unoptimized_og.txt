@@ -1,0 +1,42 @@
+=== Ada: arm-eabi-size ===
+   text	   data	    bss	    dec	    hex	filename
+  68396	   2128	  23184	  93708	  16e0c	/home/racci/Documents/Universita/RealTimeKernels/RTOS_experiments/04_ram_stack_footprint/ada/obj/gee
+
+=== Ada: simboli stack-correlati ===
+00010830 00000001 R system__parameters__stack_grows_down
+0000153c 00000002 T system__bb__interrupts__Tinterrupt_stacksBIP
+00001540 00000002 T system__bb__interrupts__Tinterrupt_stack_tableBIP
+2000020c 00000002 D system__secondary_stack_E
+0000870c 00000002 T system__secondary_stack__memoryIP
+00002bc0 00000002 T system__task_primitives__operations__Tidle_stacksBIP
+00002bbc 00000002 T system__task_primitives__operations__Tidle_stack_spaceBIP__2
+00002bc4 00000002 T system__task_primitives__operations__Tidle_stacks_tableBIP
+0000fff0 00000004 R ada__exceptions__exception_propagation__ua_end_of_stackXn
+200001d0 00000004 D __gl_default_stack_size
+20003fc0 00000004 B __gnat_idle_stack_table
+20003ae8 00000004 B interrupt_stack_table
+00010838 00000004 R system__parameters__default_stack_size
+00010834 00000004 R system__parameters__minimum_stack_size
+0001082c 00000004 R system__parameters__runtime_default_sec_stack_size
+20000204 00000004 D system__secondary_stack__num_of_assigned_stacks
+20004b14 00000004 B system__secondary_stack__ss_pool
+00008710 00000004 T system__secondary_stack__ss_stackIP
+00010a5c 00000004 R system__semihosting__adp_stopped_stackoverflow
+0000ff58 00000004 R system__task_primitives__operations__idle_stack_size
+000013b4 00000008 T system__bb__cpu_primitives__initialize_stack
+00008824 0000000a T system__secondary_stack__ss_mark
+00008830 0000000c T system__secondary_stack__ss_release
+000087a4 0000000e T system__secondary_stack__ss_get_max
+00002444 00000010 T __gnat_get_secondary_stack
+000000d4 00000026 T ada_main__Tsec_default_sized_stacksBIP
+00001674 0000003c T system__bb__interrupts__within_interrupt_stack
+000087b4 00000070 T system__secondary_stack__ss_init
+00008714 00000090 T system__secondary_stack__ss_allocate
+20005ed8 00000400 B system__bb__interrupts__interrupt_stacks
+200012c0 00000478 B footprint_tasks__task_a
+20001738 00000678 B footprint_tasks__task_b
+20003fc8 00000800 B system__task_primitives__operations__idle_stacks
+20000868 00000a50 b ada_main__sec_default_sized_stacks
+20001db0 00000a78 B footprint_tasks__task_c
+20004ed8 00001000 B __stack_start
+20002828 00001278 B footprint_tasks__task_d

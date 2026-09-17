@@ -1,0 +1,11 @@
+:name: Test4b - impronta RAM reale (stack painting, high-water-mark) (Rust)
+using sysbus
+mach create "footprint_hwm_rust"
+machine LoadPlatformDescription @platforms/cpus/nrf52840.repl
+machine LoadPlatformDescription @src/add-dwt.repl
+showAnalyzer uart0
+sysbus LoadELF @target/thumbv7em-none-eabihf/release/rust_renode_rtos
+logLevel -1
+start
+pause
+emulation RunFor "00:00:05"

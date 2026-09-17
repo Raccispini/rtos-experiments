@@ -1,0 +1,16 @@
+name = "ada_renode_rtos"
+description = "Test project Ravenscar in Ada"
+version = "0.1.0"
+authors = ["Racci"]
+#maintainers = ["Racci"]
+#maintainers-logins = ["nicolo.raccichini@proton.me"]
+project-files = ["ada_renode_rtos.gpr"]
+
+[[depends-on]]
+gnat_arm_elf = "^16.1.0"
+
+[[depends-on]]
+embedded_nrf52840 = "^16.0.0"
+
+[configuration.values]
+embedded_nrf52840.LFCLK_Src = "RC"

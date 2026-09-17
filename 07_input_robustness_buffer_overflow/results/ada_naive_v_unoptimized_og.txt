@@ -1,0 +1,148 @@
+15:52:00.7768 [INFO] uart0: [host: 97.6ms (+97.6ms)|virt: 0.18ms (+0.18ms)] READY
+15:52:01.0148 [INFO] uart0: [host:   0.34s (+0.24s)|virt:     0.2s (+0.2s)] PACKET_OK cost=56
+15:52:01.2129 [INFO] uart0: [host:    0.53s (+0.2s)|virt:     0.4s (+0.2s)] PACKET_OK cost=55
+15:52:01.4143 [INFO] uart0: [host:    0.74s (+0.2s)|virt:     0.6s (+0.2s)] PACKET_OK cost=56
+15:52:01.6134 [INFO] uart0: [host:    0.93s (+0.2s)|virt:     0.8s (+0.2s)] PACKET_OK cost=56
+15:52:01.8171 [NOISY] cpu: Loop to itself detected
+15:52:01.8171 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:01.8286 [INFO] uart0: [host:   1.15s (+0.22s)|virt:       1s (+0.2s)] READY
+15:52:02.0149 [INFO] uart0: [host:   1.34s (+0.19s)|virt:     1.2s (+0.2s)] PACKET_OK cost=56
+15:52:02.2135 [INFO] uart0: [host:    1.53s (+0.2s)|virt:     1.4s (+0.2s)] PACKET_OK cost=55
+15:52:02.4133 [INFO] uart0: [host:    1.73s (+0.2s)|virt:     1.6s (+0.2s)] PACKET_OK cost=56
+15:52:02.6133 [INFO] uart0: [host:    1.93s (+0.2s)|virt:     1.8s (+0.2s)] PACKET_OK cost=56
+15:52:02.8156 [NOISY] cpu: Loop to itself detected
+15:52:02.8156 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:02.8195 [INFO] uart0: [host:   2.14s (+0.21s)|virt:       2s (+0.2s)] READY
+15:52:03.0145 [INFO] uart0: [host:    2.34s (+0.2s)|virt:     2.2s (+0.2s)] PACKET_OK cost=56
+15:52:03.2138 [INFO] uart0: [host:    2.53s (+0.2s)|virt:     2.4s (+0.2s)] PACKET_OK cost=55
+15:52:03.4136 [INFO] uart0: [host:    2.73s (+0.2s)|virt:     2.6s (+0.2s)] PACKET_OK cost=56
+15:52:03.6137 [INFO] uart0: [host:    2.93s (+0.2s)|virt:     2.8s (+0.2s)] PACKET_OK cost=56
+15:52:03.8160 [NOISY] cpu: Loop to itself detected
+15:52:03.8160 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:03.8191 [INFO] uart0: [host:   3.14s (+0.21s)|virt:       3s (+0.2s)] READY
+15:52:04.0151 [INFO] uart0: [host:    3.34s (+0.2s)|virt:     3.2s (+0.2s)] PACKET_OK cost=56
+15:52:04.2141 [INFO] uart0: [host:    3.54s (+0.2s)|virt:     3.4s (+0.2s)] PACKET_OK cost=55
+15:52:04.4142 [INFO] uart0: [host:    3.74s (+0.2s)|virt:     3.6s (+0.2s)] PACKET_OK cost=56
+15:52:04.6141 [INFO] uart0: [host:    3.94s (+0.2s)|virt:     3.8s (+0.2s)] PACKET_OK cost=56
+15:52:04.8165 [NOISY] cpu: Loop to itself detected
+15:52:04.8165 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:04.8201 [INFO] uart0: [host:   4.14s (+0.21s)|virt:       4s (+0.2s)] READY
+15:52:05.0155 [INFO] uart0: [host:    4.34s (+0.2s)|virt:     4.2s (+0.2s)] PACKET_OK cost=56
+15:52:05.2147 [INFO] uart0: [host:    4.54s (+0.2s)|virt:     4.4s (+0.2s)] PACKET_OK cost=55
+15:52:05.4147 [INFO] uart0: [host:    4.74s (+0.2s)|virt:     4.6s (+0.2s)] PACKET_OK cost=56
+15:52:05.6146 [INFO] uart0: [host:    4.94s (+0.2s)|virt:     4.8s (+0.2s)] PACKET_OK cost=56
+15:52:05.8170 [NOISY] cpu: Loop to itself detected
+15:52:05.8170 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:05.8200 [INFO] uart0: [host:   5.14s (+0.21s)|virt:       5s (+0.2s)] READY
+15:52:06.0160 [INFO] uart0: [host:    5.34s (+0.2s)|virt:     5.2s (+0.2s)] PACKET_OK cost=56
+15:52:06.2151 [INFO] uart0: [host:    5.54s (+0.2s)|virt:     5.4s (+0.2s)] PACKET_OK cost=55
+15:52:06.4151 [INFO] uart0: [host:    5.74s (+0.2s)|virt:     5.6s (+0.2s)] PACKET_OK cost=56
+15:52:06.6152 [INFO] uart0: [host:    5.94s (+0.2s)|virt:     5.8s (+0.2s)] PACKET_OK cost=56
+15:52:06.8176 [NOISY] cpu: Loop to itself detected
+15:52:06.8176 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:06.8209 [INFO] uart0: [host:   6.14s (+0.21s)|virt:       6s (+0.2s)] READY
+15:52:07.0166 [INFO] uart0: [host:    6.34s (+0.2s)|virt:     6.2s (+0.2s)] PACKET_OK cost=56
+15:52:07.2157 [INFO] uart0: [host:    6.54s (+0.2s)|virt:     6.4s (+0.2s)] PACKET_OK cost=55
+15:52:07.4156 [INFO] uart0: [host:    6.74s (+0.2s)|virt:     6.6s (+0.2s)] PACKET_OK cost=56
+15:52:07.6161 [INFO] uart0: [host:    6.94s (+0.2s)|virt:     6.8s (+0.2s)] PACKET_OK cost=56
+15:52:07.8180 [NOISY] cpu: Loop to itself detected
+15:52:07.8180 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:07.8311 [INFO] uart0: [host:   7.15s (+0.22s)|virt:       7s (+0.2s)] READY
+15:52:08.0170 [INFO] uart0: [host:   7.34s (+0.19s)|virt:     7.2s (+0.2s)] PACKET_OK cost=56
+15:52:08.2162 [INFO] uart0: [host:    7.54s (+0.2s)|virt:     7.4s (+0.2s)] PACKET_OK cost=55
+15:52:08.4162 [INFO] uart0: [host:    7.74s (+0.2s)|virt:     7.6s (+0.2s)] PACKET_OK cost=56
+15:52:08.6162 [INFO] uart0: [host:    7.94s (+0.2s)|virt:     7.8s (+0.2s)] PACKET_OK cost=56
+15:52:08.8185 [NOISY] cpu: Loop to itself detected
+15:52:08.8185 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:08.8216 [INFO] uart0: [host:   8.14s (+0.21s)|virt:       8s (+0.2s)] READY
+15:52:09.0175 [INFO] uart0: [host:    8.34s (+0.2s)|virt:     8.2s (+0.2s)] PACKET_OK cost=56
+15:52:09.2166 [INFO] uart0: [host:    8.54s (+0.2s)|virt:     8.4s (+0.2s)] PACKET_OK cost=55
+15:52:09.4167 [INFO] uart0: [host:    8.74s (+0.2s)|virt:     8.6s (+0.2s)] PACKET_OK cost=56
+15:52:09.6167 [INFO] uart0: [host:    8.94s (+0.2s)|virt:     8.8s (+0.2s)] PACKET_OK cost=56
+15:52:09.8190 [NOISY] cpu: Loop to itself detected
+15:52:09.8191 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:09.8221 [INFO] uart0: [host:   9.14s (+0.21s)|virt:       9s (+0.2s)] READY
+15:52:10.0181 [INFO] uart0: [host:    9.34s (+0.2s)|virt:     9.2s (+0.2s)] PACKET_OK cost=56
+15:52:10.2172 [INFO] uart0: [host:    9.54s (+0.2s)|virt:     9.4s (+0.2s)] PACKET_OK cost=55
+15:52:10.4171 [INFO] uart0: [host:    9.74s (+0.2s)|virt:     9.6s (+0.2s)] PACKET_OK cost=56
+15:52:10.6171 [INFO] uart0: [host:    9.94s (+0.2s)|virt:     9.8s (+0.2s)] PACKET_OK cost=56
+15:52:10.8199 [NOISY] cpu: Loop to itself detected
+15:52:10.8199 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:10.8229 [INFO] uart0: [host:  10.14s (+0.21s)|virt:   10.01s (+0.2s)] READY
+15:52:11.0185 [INFO] uart0: [host:   10.34s (+0.2s)|virt:   10.21s (+0.2s)] PACKET_OK cost=56
+15:52:11.2176 [INFO] uart0: [host:   10.54s (+0.2s)|virt:   10.41s (+0.2s)] PACKET_OK cost=55
+15:52:11.4177 [INFO] uart0: [host:   10.74s (+0.2s)|virt:   10.61s (+0.2s)] PACKET_OK cost=56
+15:52:11.6176 [INFO] uart0: [host:   10.94s (+0.2s)|virt:   10.81s (+0.2s)] PACKET_OK cost=56
+15:52:11.8199 [NOISY] cpu: Loop to itself detected
+15:52:11.8199 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:11.8329 [INFO] uart0: [host:  11.15s (+0.22s)|virt:   11.01s (+0.2s)] READY
+15:52:12.0191 [INFO] uart0: [host:  11.34s (+0.19s)|virt:   11.21s (+0.2s)] PACKET_OK cost=56
+15:52:12.2182 [INFO] uart0: [host:   11.54s (+0.2s)|virt:   11.41s (+0.2s)] PACKET_OK cost=55
+15:52:12.4181 [INFO] uart0: [host:   11.74s (+0.2s)|virt:   11.61s (+0.2s)] PACKET_OK cost=56
+15:52:12.6182 [INFO] uart0: [host:   11.94s (+0.2s)|virt:   11.81s (+0.2s)] PACKET_OK cost=56
+15:52:12.8205 [NOISY] cpu: Loop to itself detected
+15:52:12.8205 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:12.8232 [INFO] uart0: [host:  12.14s (+0.21s)|virt:   12.01s (+0.2s)] READY
+15:52:13.0196 [INFO] uart0: [host:   12.34s (+0.2s)|virt:   12.21s (+0.2s)] PACKET_OK cost=56
+15:52:13.2187 [INFO] uart0: [host:   12.54s (+0.2s)|virt:   12.41s (+0.2s)] PACKET_OK cost=55
+15:52:13.4186 [INFO] uart0: [host:   12.74s (+0.2s)|virt:   12.61s (+0.2s)] PACKET_OK cost=56
+15:52:13.6186 [INFO] uart0: [host:   12.94s (+0.2s)|virt:   12.81s (+0.2s)] PACKET_OK cost=56
+15:52:13.8212 [NOISY] cpu: Loop to itself detected
+15:52:13.8212 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:13.8239 [INFO] uart0: [host:  13.14s (+0.21s)|virt:   13.01s (+0.2s)] READY
+15:52:14.0200 [INFO] uart0: [host:   13.34s (+0.2s)|virt:   13.21s (+0.2s)] PACKET_OK cost=56
+15:52:14.2192 [INFO] uart0: [host:   13.54s (+0.2s)|virt:   13.41s (+0.2s)] PACKET_OK cost=55
+15:52:14.4191 [INFO] uart0: [host:   13.74s (+0.2s)|virt:   13.61s (+0.2s)] PACKET_OK cost=56
+15:52:14.6192 [INFO] uart0: [host:   13.94s (+0.2s)|virt:   13.81s (+0.2s)] PACKET_OK cost=56
+15:52:14.8210 [NOISY] cpu: Loop to itself detected
+15:52:14.8210 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:14.8337 [INFO] uart0: [host:  14.15s (+0.21s)|virt:   14.01s (+0.2s)] READY
+15:52:15.0205 [INFO] uart0: [host:  14.34s (+0.19s)|virt:   14.21s (+0.2s)] PACKET_OK cost=56
+15:52:15.2197 [INFO] uart0: [host:   14.54s (+0.2s)|virt:   14.41s (+0.2s)] PACKET_OK cost=55
+15:52:15.4197 [INFO] uart0: [host:   14.74s (+0.2s)|virt:   14.61s (+0.2s)] PACKET_OK cost=56
+15:52:15.6197 [INFO] uart0: [host:   14.94s (+0.2s)|virt:   14.81s (+0.2s)] PACKET_OK cost=56
+15:52:15.8216 [NOISY] cpu: Loop to itself detected
+15:52:15.8216 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:15.8346 [INFO] uart0: [host:  15.16s (+0.21s)|virt:   15.01s (+0.2s)] READY
+15:52:16.0209 [INFO] uart0: [host:  15.34s (+0.19s)|virt:   15.21s (+0.2s)] PACKET_OK cost=56
+15:52:16.2202 [INFO] uart0: [host:   15.54s (+0.2s)|virt:   15.41s (+0.2s)] PACKET_OK cost=55
+15:52:16.4202 [INFO] uart0: [host:   15.74s (+0.2s)|virt:   15.61s (+0.2s)] PACKET_OK cost=56
+15:52:16.6202 [INFO] uart0: [host:   15.94s (+0.2s)|virt:   15.81s (+0.2s)] PACKET_OK cost=56
+15:52:16.8226 [NOISY] cpu: Loop to itself detected
+15:52:16.8227 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:16.8253 [INFO] uart0: [host:  16.15s (+0.21s)|virt:   16.01s (+0.2s)] READY
+15:52:17.0214 [INFO] uart0: [host:   16.34s (+0.2s)|virt:   16.21s (+0.2s)] PACKET_OK cost=56
+15:52:17.2207 [INFO] uart0: [host:   16.54s (+0.2s)|virt:   16.41s (+0.2s)] PACKET_OK cost=55
+15:52:17.4206 [INFO] uart0: [host:   16.74s (+0.2s)|virt:   16.61s (+0.2s)] PACKET_OK cost=56
+15:52:17.6206 [INFO] uart0: [host:   16.94s (+0.2s)|virt:   16.81s (+0.2s)] PACKET_OK cost=56
+15:52:17.8233 [NOISY] cpu: Loop to itself detected
+15:52:17.8233 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:17.8263 [INFO] uart0: [host:  17.15s (+0.21s)|virt:   17.01s (+0.2s)] READY
+15:52:18.0221 [INFO] uart0: [host:   17.34s (+0.2s)|virt:   17.21s (+0.2s)] PACKET_OK cost=56
+15:52:18.2216 [INFO] uart0: [host:   17.54s (+0.2s)|virt:   17.41s (+0.2s)] PACKET_OK cost=55
+15:52:18.4212 [INFO] uart0: [host:   17.74s (+0.2s)|virt:   17.61s (+0.2s)] PACKET_OK cost=56
+15:52:18.6212 [INFO] uart0: [host:   17.94s (+0.2s)|virt:   17.81s (+0.2s)] PACKET_OK cost=56
+15:52:18.8235 [NOISY] cpu: Loop to itself detected
+15:52:18.8235 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:18.8263 [INFO] uart0: [host:  18.15s (+0.21s)|virt:   18.01s (+0.2s)] READY
+15:52:19.0225 [INFO] uart0: [host:   18.34s (+0.2s)|virt:   18.21s (+0.2s)] PACKET_OK cost=56
+15:52:19.2216 [INFO] uart0: [host:   18.54s (+0.2s)|virt:   18.41s (+0.2s)] PACKET_OK cost=55
+15:52:19.4216 [INFO] uart0: [host:   18.74s (+0.2s)|virt:   18.61s (+0.2s)] PACKET_OK cost=56
+15:52:19.6216 [INFO] uart0: [host:   18.94s (+0.2s)|virt:   18.81s (+0.2s)] PACKET_OK cost=56
+15:52:19.8241 [NOISY] cpu: Loop to itself detected
+15:52:19.8241 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:19.8271 [INFO] uart0: [host:  19.15s (+0.21s)|virt:   19.01s (+0.2s)] READY
+15:52:20.0231 [INFO] uart0: [host:   19.34s (+0.2s)|virt:   19.21s (+0.2s)] PACKET_OK cost=56
+15:52:20.2222 [INFO] uart0: [host:   19.54s (+0.2s)|virt:   19.41s (+0.2s)] PACKET_OK cost=55
+15:52:20.4221 [INFO] uart0: [host:   19.74s (+0.2s)|virt:   19.61s (+0.2s)] PACKET_OK cost=56
+15:52:20.6222 [INFO] uart0: [host:   19.94s (+0.2s)|virt:   19.81s (+0.2s)] PACKET_OK cost=56
+15:52:20.8244 [NOISY] cpu: Loop to itself detected
+15:52:20.8244 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:20.8370 [INFO] uart0: [host:  20.16s (+0.21s)|virt:   20.01s (+0.2s)] READY
+15:52:21.0241 [INFO] uart0: [host:  20.35s (+0.19s)|virt:   20.21s (+0.2s)] PACKET_OK cost=56
+15:52:21.2226 [INFO] uart0: [host:   20.54s (+0.2s)|virt:   20.41s (+0.2s)] PACKET_OK cost=55
+15:52:21.4227 [INFO] uart0: [host:   20.74s (+0.2s)|virt:   20.61s (+0.2s)] PACKET_OK cost=56
+15:52:21.6227 [INFO] uart0: [host:   20.94s (+0.2s)|virt:   20.81s (+0.2s)] PACKET_OK cost=56
+15:52:21.8250 [NOISY] cpu: Loop to itself detected
+15:52:21.8250 [INFO] nvic: Resetting platform with SYSRESETREQ
+15:52:21.8277 [INFO] uart0: [host:  21.15s (+0.21s)|virt:   21.01s (+0.2s)] READY

@@ -1,0 +1,47 @@
+:name: Test1 - jitter latenza ISR sotto carico (Rust)
+using sysbus
+mach create "jitter_rust"
+machine LoadPlatformDescription @platforms/cpus/nrf52840.repl
+machine LoadPlatformDescription @src/add-dwt.repl
+showAnalyzer uart0
+sysbus LoadELF @target/thumbv7em-none-eabihf/release/rust_renode_rtos
+logLevel -1
+start
+pause
+emulation RunFor "00:00:01"
+macro sample
+"""
+    sysbus WriteDoubleWord 0xE0001004 0x0
+    sysbus WriteDoubleWord 0xE000EF00 0x6
+    emulation RunFor "00:00:00.100"
+"""
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample
+runMacro $sample

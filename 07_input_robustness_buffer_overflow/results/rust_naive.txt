@@ -1,0 +1,5 @@
+21:11:08.9831 [INFO] uart0: [host: 0.13s (+0.13s)|virt: 30.52ms (+30.52ms)] PACKET_OK cost=2
+21:11:08.9932 [INFO] uart0: [host: 0.14s (+10.16ms)|virt: 61.04ms (+30.52ms)] PACKET_OK cost=2
+21:11:09.0189 [INFO] uart0: [host: 0.16s (+25.72ms)|virt: 91.55ms (+30.52ms)] PACKET_OK cost=2
+21:11:09.1265 [INFO] uart0: [host:   0.27s (+0.11s)|virt:   0.12s (+30.52ms)] PACKET_OK cost=2
+21:11:09.1572 [NOISY] cpu: Loop to itself detected

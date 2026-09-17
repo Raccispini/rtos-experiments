@@ -1,0 +1,58 @@
+=== nm: simboli di last-chance/reset ===
+200002e2 D ada__exceptions__last_chance_handler_E
+00005798 T ada__tags__external_tag_htable__resetXn
+00007330 T _exit
+0000a18c T __gnat_last_chance_handler
+00007350 T __gnat_stop
+20004814 B __lock___at_quick_exit_mutex
+20004958 B __stdio_exit_handler
+0000cbb8 t stdio_exit_handler
+00010889 R system__bb__cpu_primitives__reset_vector
+2000020a D system__machine_reset_E
+0000af3c T system__semihosting__sh_exit
+00011ba4 R system__semihosting__sys_exit
+
+=== objdump: __gnat_last_chance_handler (estratto: chiamata a __gnat_stop) ===
+
+obj/gee:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+0000a298 <__gnat_last_chance_handler+0x10c>:
+    a298:	f7fd f85a 	bl	7350 <__gnat_stop>
+    a29c:	4604      	mov	r4, r0
+    a29e:	4640      	mov	r0, r8
+    a2a0:	f7fe ff44 	bl	912c <system__secondary_stack__ss_release>
+    a2a4:	4620      	mov	r0, r4
+    a2a6:	Address 0xa2a6 is out of bounds.
+
+
+=== objdump: __gnat_stop -> _exit ===
+
+obj/gee:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00007350 <__gnat_stop>:
+    7350:	b508      	push	{r3, lr}
+    7352:	2000      	movs	r0, #0
+    7354:	f7ff ffec 	bl	7330 <_exit>
+
+=== objdump: _exit (scrive AIRCR.SYSRESETREQ = 0xE000ED0C <- 0x05FA0004) ===
+
+obj/gee:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00007330 <_exit>:
+    7330:	f3bf 8f4f 	dsb	sy
+    7334:	b672      	cpsid	i
+    7336:	f04f 23e0 	mov.w	r3, #3758153728	@ 0xe000e000
+    733a:	4a02      	ldr	r2, [pc, #8]	@ (7344 <_exit+0x14>)
+    733c:	f8c3 2d0c 	str.w	r2, [r3, #3340]	@ 0xd0c
+    7340:	e7fe      	b.n	7340 <_exit+0x10>
+    7342:	bf00      	nop
+    7344:	05fa0004 	.word	0x05fa0004
